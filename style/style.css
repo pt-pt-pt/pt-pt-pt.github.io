@@ -15,7 +15,7 @@ background-size: cover;
 
 
 .container {
-  max-width: 550px;
+  max-width: 360px;
   padding: 0 1em;
   display: block;
   margin: 0 auto;
@@ -30,10 +30,10 @@ img.welcome {
 .box {
   background: white;
   color: #404041;
-  padding: 3em;
-  border-radius: 5px;
-  margin-bottom: 2em;
-  margin-top: 2em;
+  padding: 1em;
+  border-radius: 0 auto;
+  margin-bottom: 0 auto;
+  margin-top: 0 auto;
   font-family: sans-serif;
 }
 
