@@ -1,12 +1,13 @@
 {
- "name": "ТВОЯ РУНА ДНЯ </br> Приложение быстрого доступа",
+ "name": "РУНЫ СТАРШЕГО ФУТХАРКА </br> Приложение быстрого доступа",
     "short_name": "Руны",
     "description": "Руны старшего Футхарка в progressive web apps",
     "lang": "ru-ru",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#E6E6FA",
-    "background_color": "#E6E6FA",
+    "background_color": "#c7b39b",
+ 
 
  "icons": [
   {
