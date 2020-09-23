@@ -1,6 +1,6 @@
 {
- "name": "ТВОЯ РУНА ДНЯ",
-    "short_name": "Приложение быстрого доступа",
+ "name": "ТВОЯ РУНА ДНЯ </br> Приложение быстрого доступа",
+    "short_name": "Руны",
     "description": "Руны старшего Футхарка в progressive web apps",
     "lang": "ru-ru",
     "start_url": "/",
