@@ -26,7 +26,7 @@
 <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
 
 <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
+<link rel="manifest" href="/runes/manifest.json">
 <meta name="msapplication-TileColor" content="#3838f5">
 <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 
@@ -35,7 +35,7 @@
 <script>
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+    navigator.serviceWorker.register('/runes/sw.js').then(function(registration) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
     }, function(err) {
