@@ -1,19 +1,14 @@
 {
-  "name": "Web Community Leaders UK IE",
-    "short_name": "Web Leaders",
-    "description": "Web Community Leaders landing page",
-    "lang": "en-GB",
+ "name": "ТВОЯ РУНА ДНЯ",
+    "short_name": "Приложение быстрого доступа",
+    "description": "Руны старшего Футхарка в progressive web apps",
+    "lang": "ru-ru",
     "start_url": "/",
     "display": "standalone",
     "theme_color": "#E6E6FA",
     "background_color": "#E6E6FA",
 
  "icons": [
-   {
-     "src":"\/icons/wcls-logo-512.png",
-     "sizes": "512x512",
-     "type": "image\/png"
-   },
   {
    "src": "\/icons/android-icon-36x36.png",
    "sizes": "36x36",
