@@ -56,4 +56,56 @@ if ('serviceWorker' in navigator) {
   </body> 
  <footer>
 <div align="center"><a href="Wyrd.html" target="_blank"><img src="images/3-runes.png"></a></div></a>
+  <script>
+    var sites = [
+        'https://pt-pt-pt.github.io/runes/Algiz_down.html',
+        'https://pt-pt-pt.github.io/runes/Algiz_up.html',
+        'https://pt-pt-pt.github.io/runes/Ansuz_down.html',
+        'https://pt-pt-pt.github.io/runes/Ansuz_up.html'
+		'https://pt-pt-pt.github.io/runes/Berkana_down.html'
+		'https://pt-pt-pt.github.io/runes/Berkana_up.html'
+		'https://pt-pt-pt.github.io/runes/Dagaz.html'
+		'https://pt-pt-pt.github.io/runes/Ehwaz_down.html'
+		'https://pt-pt-pt.github.io/runes/Ehwaz_up.html'
+		'https://pt-pt-pt.github.io/runes/Eihwaz.html'
+		'https://pt-pt-pt.github.io/runes/Fehu_down.html'
+		'https://pt-pt-pt.github.io/runes/Fehu_up.html'
+		'https://pt-pt-pt.github.io/runes/Gebo.html'
+		'https://pt-pt-pt.github.io/runes/Hagalaz.html'
+		'https://pt-pt-pt.github.io/runes/Inguz.html'
+		'https://pt-pt-pt.github.io/runes/Gebo.html'
+		'https://pt-pt-pt.github.io/runes/Isa.html'
+		'https://pt-pt-pt.github.io/runes/Jera.html'
+		'https://pt-pt-pt.github.io/runes/Kano_down.html'
+		'https://pt-pt-pt.github.io/runes/Kano_up.html'
+		'https://pt-pt-pt.github.io/runes/Laguz_down.html'
+		'https://pt-pt-pt.github.io/runes/Laguz_up.html'
+		'https://pt-pt-pt.github.io/runes/Mannaz_down.html'
+		'https://pt-pt-pt.github.io/runes/Mannaz_up.html'
+		'https://pt-pt-pt.github.io/runes/Nauthiz_down.html'
+		'https://pt-pt-pt.github.io/runes/Nauthiz_up.html'
+		'https://pt-pt-pt.github.io/runes/Othil_down.html'
+		'https://pt-pt-pt.github.io/runes/Othil_up.html'
+		'https://pt-pt-pt.github.io/runes/Perth_down.html'
+		'https://pt-pt-pt.github.io/runes/Perth_up.html'
+		'https://pt-pt-pt.github.io/runes/Raido_down.html'
+		'https://pt-pt-pt.github.io/runes/Raido_up.html'
+		'https://pt-pt-pt.github.io/runes/Sowelu.html'
+		'https://pt-pt-pt.github.io/runes/Teiwaz_down.html'
+		'https://pt-pt-pt.github.io/runes/Teiwaz_up.html'
+		'https://pt-pt-pt.github.io/runes/Thurisaz_down.html'
+		'https://pt-pt-pt.github.io/runes/Thurisaz_up.html'
+		'https://pt-pt-pt.github.io/runes/Uruz_down.html'
+		'https://pt-pt-pt.github.io/runes/Uruz_up.html'
+		'https://pt-pt-pt.github.io/runes/Wunjo_down.html'
+		'https://pt-pt-pt.github.io/runes/Wunjo_up.html'
+		'https://pt-pt-pt.github.io/runes/Wyrd.html'
+    ];
+
+    function randomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+</script>
+<a href="#" onclick="randomSite();">Random</a>
    </footer> 
