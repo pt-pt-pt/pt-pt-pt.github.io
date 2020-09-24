@@ -1,5 +1,5 @@
 {
- "name": "РУНЫ СТАРШЕГО ФУТХАРКА </br> Приложение быстрого доступа",
+ "name": "РУНЫ СТАРШЕГО ФУТХАРКА",
     "short_name": "Руны",
     "description": "Руны старшего Футхарка в progressive web apps",
     "lang": "ru-ru",
@@ -8,7 +8,19 @@
     "theme_color": "#E6E6FA",
     "background_color": "#c7b39b",
  
-
+{
+  …
+  "icons": [
+    …
+    {
+      "src": "images/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+  …
+}
  "icons": [
   {
    "src": "\/icons/android-icon-36x36.png",
