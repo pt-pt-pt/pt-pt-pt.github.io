@@ -9,17 +9,14 @@
     "background_color": "#c7b39b",
  
 {
-  …
-  "icons": [
-    …
-    {
+   "icons": [
+      {
       "src": "images/maskable_icon.png",
       "sizes": "196x196",
       "type": "image/png",
       "purpose": "any maskable"
     }
   ]
-  …
 }
  "icons": [
   {
